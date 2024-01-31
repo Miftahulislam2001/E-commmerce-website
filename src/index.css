@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
+
+.btn{
+    @apply text-white bg-purple-400 rounded shadow-md p-3 hover:ease-in duration-100 cursor-pointer hover:bg-purple-300
+}
 @tailwind utilities;
