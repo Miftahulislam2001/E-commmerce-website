@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar';
 import Slider from '../../components/Slider/Slider';
 import Categories from '../../components/Categories';
 import TopProducts from '../../components/TopProducts';
+import NewsLetter from '../../components/NewsLetter';
+import Footer from '../../components/Footer';
 
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
             <Slider/>
             <Categories/>
             <TopProducts/>
+            <NewsLetter/>
+            <Footer/>
         </div>
     );
 };
