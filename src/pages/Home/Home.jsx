@@ -8,6 +8,7 @@ import NewsLetter from '../../components/NewsLetter';
 import Footer from '../../components/Footer';
 
 
+
 const Home = () => {
     return (
         <div>
@@ -18,6 +19,7 @@ const Home = () => {
             <TopProducts/>
             <NewsLetter/>
             <Footer/>
+           
         </div>
     );
 };
